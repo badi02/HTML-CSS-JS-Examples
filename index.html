@@ -1,0 +1,61 @@
+<html>
+   <head>
+       
+	  <title> Site </title>
+      <meta charset="UTF-8">
+	  <link href="tp2.css" rel="stylesheet" type="text/css" />
+	  
+   </head>
+        
+     <body>
+	   <img src= "image.png" alt= "LOGO">
+	   <h1> Bonjour </h1>
+	   <h2>  Menu </h2>
+	   
+	   <ul>
+	   
+	      <li> <a href= "index.html"> Index </a> </li>
+		  <li> <a href= "presentation.html"> Presentation </a> </li>
+		  <li> <a href= "inscription.html"> Inscription </a> </li>
+		  <li> <a href= "contact.html"> Contact </a> </li>
+		  
+	   </ul>  
+	   <script language="JavaScript">
+		//CODE
+			//document.write("Bonjour Gadm master 1");
+			//x = prompt("Entrer votre nom");
+			//document.write("Bonjour"+" "+x)
+			
+			
+			var user = prompt("Entrer le nom");
+			var pswd = prompt("Entrer le mot de passe");
+			var userconfirm = prompt("confirmer le nom");
+			var pswdconfirm = prompt("confirmer le mot de passe");
+			
+			if ((user != userconfirm)||(pswd != pswdconfirm)){
+				alert("Inscription echouée !");
+			}
+			else {
+				alert("Inscription succée");
+			}
+			var seq = "";
+			for(i=0;i<=100;i++){
+				if (i%2 == 0)  seq=seq+i;
+			}
+			alert(seq);
+
+
+			/*var table = Array[7][3];
+			for (var k = 0; k <= 5; k++) {
+			    for(var i = 0; i <= 7; i++){
+					for (var j = 0; j <= 3; j++) {
+						table[i][j] = 5*k;
+					}
+				}
+			}
+			document.write(<td>  </td>)*/
+
+	   </script>
+	 </body>
+	 
+</html>

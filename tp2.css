@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    background-color: #B7a8;
+}
+h2 {
+    background-color: #C8C8C8;
+}
+li {
+    text-align: left;
+    background-color: #cc88;
+}
+#p {
+    text-align: right;
+}
+#special {
+    color: #dc143c;
+}
+table {
+    background-color: #7fffd4;
+}
+img {
+    border-style: solid ;
+    border-width: 30px;
+    border-color: black;
+}
+td{
+    font-style: italic;
+}
+a:hover{color: green;}
+a:active{color: lime}
